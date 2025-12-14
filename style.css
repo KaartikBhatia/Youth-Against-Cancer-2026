@@ -1,0 +1,46 @@
+body {
+    background-color: #0a2342;
+    font-family: "Cal Sans", sans-serif;
+    margin: 0;
+}
+
+.logo {
+    width: 400px;
+    height: 200px;
+    padding: 75px 350px;
+}
+
+.selection-box {
+    position: fixed;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    background: orange;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    z-index: 9999;
+}
+
+.select-btn {
+    width: 100%;
+    padding: 20px 0;
+    background: #bb6e0b;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fff;
+    transition: 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.select-btn:hover {
+    background: gray;
+    transform: scale(1.08);
+}
+
